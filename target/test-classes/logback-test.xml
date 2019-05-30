@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+<!--		<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--			<level>WARN</level>-->
+<!--			<onMatch>ACCEPT</onMatch>-->
+<!--			<onMismatch>DENY</onMismatch>-->
+<!--		</filter>-->
+		<encoder>
+			<pattern>%highlight([%level][%d{HH:mm:ss.SSS}][%logger]): %msg%n%rEx</pattern>
+		</encoder>
+		<immediateFlush>false</immediateFlush>
+	</appender>
+
+	<timestamp key="timestamp" datePattern="yyMMdd"/>
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+<!--		<filter class="ch.qos.logback.core.filter.EvaluatorFilter">-->
+<!--			<evaluator class="ch.qos.logback.classic.boolex.JaninoEventEvaluator">-->
+<!--				<expression>return (level >= INFO &amp;&amp;-->
+<!--					message.toLowerCase().contains("server_10_50_1_6"));</expression>-->
+<!--			</evaluator>-->
+<!--			<OnMismatch>DENY</OnMismatch>-->
+<!--			<OnMatch>ACCEPT</OnMatch>-->
+<!--		</filter>-->
+		<file>logs/${timestamp}.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>[%level][%d{HH:mm:ss.SSS}][%logger]: %msg%n%rEx</pattern>
+		</encoder>
+	</appender>
+
+	<!-- uncomment and set to DEBUG to log all failing HTTP requests -->
+	<!-- uncomment and set to TRACE to log all HTTP requests -->
+<!--	<logger name="io.gatling.http.engine.response" level="DEBUG" />-->
+
+	<root level="INFO">
+		<appender-ref ref="FILE"/>
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+
+</configuration>

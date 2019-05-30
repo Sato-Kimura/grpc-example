@@ -1,0 +1,90 @@
+[INFO][15:06:06.323][io.gatling.compiler.ZincCompiler$]: Compiling 1 Scala source to /Users/lap12314/Documents/Demo/api-loadtest/target/test-classes ...
+[INFO][15:06:09.842][io.gatling.compiler.ZincCompiler$]: Done compiling.
+[INFO][15:06:10.815][io.gatling.core.config.GatlingConfiguration$]: Gatling will try to use 'gatling.conf' as custom config file.
+[INFO][15:06:11.312][akka.event.slf4j.Slf4jLogger]: Slf4jLogger started
+[INFO][15:06:11.967][io.gatling.core.stats.writer.LogFileDataWriter]: Initializing
+[INFO][15:06:11.967][io.gatling.core.stats.writer.ConsoleDataWriter]: Initializing
+[INFO][15:06:11.975][io.gatling.core.stats.writer.ConsoleDataWriter]: Initialized
+[INFO][15:06:11.984][io.gatling.core.stats.writer.LogFileDataWriter]: Initialized
+[INFO][15:06:12.060][io.gatling.core.controller.inject.Injector]: StoppedInjecting
+[INFO][15:06:12.733][io.gatling.core.controller.inject.Injector]: All users of scenario Example are stopped
+[INFO][15:06:12.733][io.gatling.core.controller.inject.Injector]: Stopping
+[INFO][15:06:12.735][io.gatling.core.controller.Controller]: Injector has stopped, initiating graceful stop
+[INFO][15:06:12.764][io.gatling.core.controller.Controller]: StatsEngineStopped
+[INFO][15:06:12.807][io.gatling.charts.stats.LogFileReader]: Collected ArrayBuffer(/Users/lap12314/Documents/Demo/api-loadtest/target/gatling/grpcexample-20190529080611949/simulation.log) from grpcexample-20190529080611949
+[INFO][15:06:12.815][io.gatling.charts.stats.LogFileReader]: First pass
+[INFO][15:06:12.822][io.gatling.charts.stats.LogFileReader]: First pass done: read 4 lines
+[INFO][15:06:12.831][io.gatling.charts.stats.LogFileReader]: Second pass
+[INFO][15:06:12.853][io.gatling.charts.stats.LogFileReader]: Second pass: read 4 lines
+[INFO][15:19:47.555][io.gatling.compiler.ZincCompiler$]: Compiling 2 Scala sources to /Users/lap12314/Documents/Demo/api-loadtest/target/test-classes ...
+[INFO][15:19:51.221][io.gatling.compiler.ZincCompiler$]: Done compiling.
+[INFO][15:19:52.139][io.gatling.core.config.GatlingConfiguration$]: Gatling will try to use 'gatling.conf' as custom config file.
+[INFO][15:19:52.612][akka.event.slf4j.Slf4jLogger]: Slf4jLogger started
+[INFO][15:19:53.279][io.gatling.core.stats.writer.LogFileDataWriter]: Initializing
+[INFO][15:19:53.279][io.gatling.core.stats.writer.ConsoleDataWriter]: Initializing
+[INFO][15:19:53.284][io.gatling.core.stats.writer.ConsoleDataWriter]: Initialized
+[INFO][15:19:53.291][io.gatling.core.stats.writer.LogFileDataWriter]: Initialized
+[INFO][15:19:53.369][io.gatling.core.controller.inject.Injector]: StoppedInjecting
+[INFO][15:19:54.008][io.gatling.core.controller.inject.Injector]: All users of scenario Example are stopped
+[INFO][15:19:54.008][io.gatling.core.controller.inject.Injector]: Stopping
+[INFO][15:19:54.010][io.gatling.core.controller.Controller]: Injector has stopped, initiating graceful stop
+[INFO][15:19:54.041][io.gatling.core.controller.Controller]: StatsEngineStopped
+[INFO][15:19:54.088][io.gatling.charts.stats.LogFileReader]: Collected ArrayBuffer(/Users/lap12314/Documents/Demo/api-loadtest/target/gatling/grpcexample-20190529081953259/simulation.log) from grpcexample-20190529081953259
+[INFO][15:19:54.098][io.gatling.charts.stats.LogFileReader]: First pass
+[INFO][15:19:54.106][io.gatling.charts.stats.LogFileReader]: First pass done: read 4 lines
+[INFO][15:19:54.116][io.gatling.charts.stats.LogFileReader]: Second pass
+[INFO][15:19:54.143][io.gatling.charts.stats.LogFileReader]: Second pass: read 4 lines
+[INFO][15:28:54.492][io.gatling.compiler.ZincCompiler$]: Compiling 1 Scala source to /Users/lap12314/Documents/Demo/api-loadtest/target/test-classes ...
+[INFO][15:28:58.141][io.gatling.compiler.ZincCompiler$]: Done compiling.
+[INFO][15:28:59.062][io.gatling.core.config.GatlingConfiguration$]: Gatling will try to use 'gatling.conf' as custom config file.
+[INFO][15:28:59.543][akka.event.slf4j.Slf4jLogger]: Slf4jLogger started
+[INFO][15:29:00.177][io.gatling.core.stats.writer.ConsoleDataWriter]: Initializing
+[INFO][15:29:00.178][io.gatling.core.stats.writer.LogFileDataWriter]: Initializing
+[INFO][15:29:00.184][io.gatling.core.stats.writer.ConsoleDataWriter]: Initialized
+[INFO][15:29:00.195][io.gatling.core.stats.writer.LogFileDataWriter]: Initialized
+[INFO][15:29:00.264][io.gatling.core.controller.inject.Injector]: StoppedInjecting
+[INFO][15:29:00.927][io.gatling.core.controller.inject.Injector]: All users of scenario Example are stopped
+[INFO][15:29:00.927][io.gatling.core.controller.inject.Injector]: Stopping
+[INFO][15:29:00.929][io.gatling.core.controller.Controller]: Injector has stopped, initiating graceful stop
+[INFO][15:29:00.955][io.gatling.core.controller.Controller]: StatsEngineStopped
+[INFO][15:29:00.991][io.gatling.charts.stats.LogFileReader]: Collected ArrayBuffer(/Users/lap12314/Documents/Demo/api-loadtest/target/gatling/grpcexample-20190529082900149/simulation.log) from grpcexample-20190529082900149
+[INFO][15:29:01.001][io.gatling.charts.stats.LogFileReader]: First pass
+[INFO][15:29:01.012][io.gatling.charts.stats.LogFileReader]: First pass done: read 4 lines
+[INFO][15:29:01.023][io.gatling.charts.stats.LogFileReader]: Second pass
+[INFO][15:29:01.051][io.gatling.charts.stats.LogFileReader]: Second pass: read 4 lines
+[INFO][15:52:26.763][io.gatling.compiler.ZincCompiler$]: Compiling 1 Scala source to /Users/lap12314/Documents/Demo/api-loadtest/target/test-classes ...
+[INFO][15:52:30.354][io.gatling.compiler.ZincCompiler$]: Done compiling.
+[INFO][15:52:31.291][io.gatling.core.config.GatlingConfiguration$]: Gatling will try to use 'gatling.conf' as custom config file.
+[INFO][15:52:31.776][akka.event.slf4j.Slf4jLogger]: Slf4jLogger started
+[INFO][15:52:32.431][io.gatling.core.stats.writer.LogFileDataWriter]: Initializing
+[INFO][15:52:32.431][io.gatling.core.stats.writer.ConsoleDataWriter]: Initializing
+[INFO][15:52:32.438][io.gatling.core.stats.writer.ConsoleDataWriter]: Initialized
+[INFO][15:52:32.446][io.gatling.core.stats.writer.LogFileDataWriter]: Initialized
+[INFO][15:52:32.520][io.gatling.core.controller.inject.Injector]: StoppedInjecting
+[INFO][15:52:33.103][io.gatling.core.controller.inject.Injector]: All users of scenario Example are stopped
+[INFO][15:52:33.103][io.gatling.core.controller.inject.Injector]: Stopping
+[INFO][15:52:33.109][io.gatling.core.controller.Controller]: Injector has stopped, initiating graceful stop
+[INFO][15:52:33.137][io.gatling.core.controller.Controller]: StatsEngineStopped
+[INFO][15:52:33.181][io.gatling.charts.stats.LogFileReader]: Collected ArrayBuffer(/Users/lap12314/Documents/Demo/api-loadtest/target/gatling/grpcexample-20190529085232393/simulation.log) from grpcexample-20190529085232393
+[INFO][15:52:33.193][io.gatling.charts.stats.LogFileReader]: First pass
+[INFO][15:52:33.204][io.gatling.charts.stats.LogFileReader]: First pass done: read 4 lines
+[INFO][15:52:33.213][io.gatling.charts.stats.LogFileReader]: Second pass
+[INFO][15:52:33.239][io.gatling.charts.stats.LogFileReader]: Second pass: read 4 lines
+[INFO][17:15:20.918][io.gatling.compiler.ZincCompiler$]: Compiling 1 Scala source to /Users/lap12314/Documents/Demo/api-loadtest/target/test-classes ...
+[INFO][17:15:24.066][io.gatling.compiler.ZincCompiler$]: Done compiling.
+[INFO][17:15:25.333][io.gatling.core.config.GatlingConfiguration$]: Gatling will try to use 'gatling.conf' as custom config file.
+[INFO][17:15:25.839][akka.event.slf4j.Slf4jLogger]: Slf4jLogger started
+[INFO][17:15:26.499][io.gatling.core.stats.writer.LogFileDataWriter]: Initializing
+[INFO][17:15:26.500][io.gatling.core.stats.writer.ConsoleDataWriter]: Initializing
+[INFO][17:15:26.507][io.gatling.core.stats.writer.ConsoleDataWriter]: Initialized
+[INFO][17:15:26.515][io.gatling.core.stats.writer.LogFileDataWriter]: Initialized
+[INFO][17:15:26.712][io.gatling.core.controller.inject.Injector]: StoppedInjecting
+[INFO][17:15:27.218][io.gatling.core.controller.inject.Injector]: All users of scenario Example are stopped
+[INFO][17:15:27.218][io.gatling.core.controller.inject.Injector]: Stopping
+[INFO][17:15:27.219][io.gatling.core.controller.Controller]: Injector has stopped, initiating graceful stop
+[INFO][17:15:27.268][io.gatling.core.controller.Controller]: StatsEngineStopped
+[INFO][17:15:27.314][io.gatling.charts.stats.LogFileReader]: Collected ArrayBuffer(/Users/lap12314/Documents/Demo/api-loadtest/target/gatling/grpcexample-20190529101526460/simulation.log) from grpcexample-20190529101526460
+[INFO][17:15:27.327][io.gatling.charts.stats.LogFileReader]: First pass
+[INFO][17:15:27.338][io.gatling.charts.stats.LogFileReader]: First pass done: read 4 lines
+[INFO][17:15:27.350][io.gatling.charts.stats.LogFileReader]: Second pass
+[INFO][17:15:27.380][io.gatling.charts.stats.LogFileReader]: Second pass: read 4 lines

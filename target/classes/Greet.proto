@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package src.test;
+
+
+message registerRequest {
+    string username = 1;
+}
+
+message registerResponse {
+    string username = 1;
+    string token = 2;
+}
+
+service GreetService {
+    rpc registerGreet (registerRequest) returns (registerResponse);
+}
